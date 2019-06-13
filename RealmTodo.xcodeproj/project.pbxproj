@@ -14,6 +14,8 @@
 		2DC8D83622B2E28E0024826A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC8D83422B2E28E0024826A /* LaunchScreen.storyboard */; };
 		2DC8D84222B2E2DD0024826A /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8D84122B2E2DD0024826A /* DBManager.swift */; };
 		2DC8D84422B2E55D0024826A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8D84322B2E55D0024826A /* Models.swift */; };
+		2DC8D84622B2F7D20024826A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8D84522B2F7D20024826A /* DetailView.swift */; };
+		2DC8D84822B2F7E00024826A /* CreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8D84722B2F7E00024826A /* CreationView.swift */; };
 		D0FA5A98CDA43DF83379704C /* Pods_RealmTodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FD6B1D9584E55D2A9CA527 /* Pods_RealmTodo.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		2DC8D83722B2E28E0024826A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DC8D84122B2E2DD0024826A /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		2DC8D84322B2E55D0024826A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		2DC8D84522B2F7D20024826A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2DC8D84722B2F7E00024826A /* CreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationView.swift; sourceTree = "<group>"; };
 		6885DCF68F28ACF996E74583 /* Pods-RealmTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmTodo.release.xcconfig"; path = "Target Support Files/Pods-RealmTodo/Pods-RealmTodo.release.xcconfig"; sourceTree = "<group>"; };
 		73FD6B1D9584E55D2A9CA527 /* Pods_RealmTodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmTodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F6798D3B237ABE53713873 /* Pods-RealmTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmTodo.debug.xcconfig"; path = "Target Support Files/Pods-RealmTodo/Pods-RealmTodo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 				2DC8D82F22B2E2890024826A /* Main.storyboard */,
 				2DC8D83222B2E28E0024826A /* Assets.xcassets */,
 				2DC8D83422B2E28E0024826A /* LaunchScreen.storyboard */,
+				2DC8D84522B2F7D20024826A /* DetailView.swift */,
+				2DC8D84722B2F7E00024826A /* CreationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 				2DC8D82E22B2E2890024826A /* ViewController.swift in Sources */,
 				2DC8D84222B2E2DD0024826A /* DBManager.swift in Sources */,
 				2DC8D82C22B2E2890024826A /* AppDelegate.swift in Sources */,
+				2DC8D84622B2F7D20024826A /* DetailView.swift in Sources */,
 				2DC8D84422B2E55D0024826A /* Models.swift in Sources */,
+				2DC8D84822B2F7E00024826A /* CreationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
