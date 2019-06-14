@@ -24,6 +24,11 @@ class DBManager {
     
     var allTodosRelay = BehaviorRelay(value: [Todo]())
     
+    class func shared() -> DBManager {
+        defaultManager.retriveTodos()
+        return self.defaultManager
+    }
+    
     public func saveTodo(name : String, dos : List<String>) {
         let todo = Todo()
         todo.dos = dos
@@ -34,10 +39,6 @@ class DBManager {
         }
         
         retriveTodos()
-    }
-    
-    class func shared() -> DBManager {
-        return self.defaultManager
     }
     
     public func retrieveTodo(with predicate : String) -> Todo? {

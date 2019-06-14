@@ -29,7 +29,11 @@ class ViewController: UIViewController {
     
     
     @IBAction func addAction(_ sender: UIBarButtonItem) {
-        DBManager.shared().saveTodo(name: "Hello!", dos: List<String>())
+       // DBManager.shared().saveTodo(name: "Hello!", dos: List<String>())
+        
+        let creationView = CreationView(frame: CGRect(x: 0.1 * self.view.frame.width, y: 0.1 * self.view.frame.height, width: 1, height: 1))
+        
+        self.view.addSubview(creationView)
     }
     
 
